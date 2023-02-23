@@ -8,22 +8,11 @@ params = {"lat": -25.48,
           }
 
 api_key = os.environ.get("OWM_KEY_API")
-auth_token = "ca8f4bc4b0eaf79c6aae5d57c683dd4e"
-# account_sid = "ACab7f657c54e8493b1118d64314adf673"
-# auth_token = "ca8f4bc4b0eaf79c6aae5d57c683dd4e"
-print(os.environ)
-
-
-if "OWM_KEY_API" in os.environ:
-    print('yes')
-else:
-    print('no')
-print(api_key)
-
-
+auth_token = os.environ.get("SMS_AUTH_TOKEN")
 
 response = requests.get("http://api.openweathermap.org/data/2.5/forecast?"
                         "lat=-25.48&lon=-49.30&appid=be492f240bd37f9c8c1bb6a2c8a01c0b")
+
 print(response.status_code)
 print(response)
 weather_data = response.json()['list']
