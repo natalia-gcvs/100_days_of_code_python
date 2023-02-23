@@ -1,10 +1,10 @@
 from twilio.rest import Client
 import os
 
-TWILIO_SID = os.environ.get("OWM_KEY_API")
+TWILIO_SID = os.environ.get("TWL_ID")
 TWILIO_AUTH_TOKEN = os.environ.get("SMS_AUTH_TOKEN")
-TWILIO_VIRTUAL_NUMBER = "+19788506384"
-TWILIO_VERIFIED_NUMBER = "+353833126285"
+TWILIO_VIRTUAL_NUMBER = os.environ.get("TWL_VIRTUAL_NUM")
+TWILIO_VERIFIED_NUMBER = os.environ.get("TWL_VERIFIED_NUM")
 
 
 class NotificationManager:

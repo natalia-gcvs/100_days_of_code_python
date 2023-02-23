@@ -4,11 +4,15 @@ from twilio.rest import Client
 
 params = {"lat": -25.48,
           "long": -49.30,
-          "appid": "be492f240bd37f9c8c1bb6a2c8a01c0b",
+          "appid": os.environ.get("OWM_KEY_API")
           }
 
-api_key = os.environ.get("OWM_KEY_API")
-auth_token = os.environ.get("SMS_AUTH_TOKEN")
+TWL_ID = os.environ.get("TWL_ID")
+TWL_AUTH_TOKEN = os.environ.get("SMS_AUTH_TOKEN")
+TWL_VIRTUAL_NUM = os.environ.get("TWL_VIRTUAL_NUM")
+TWL_VERIFIED_NUM = os.environ.get("TWL_VERIFIED_NUM")
+
+print(os.environ.get("OWM_KEY_API"))
 
 response = requests.get("http://api.openweathermap.org/data/2.5/forecast?"
                         "lat=-25.48&lon=-49.30&appid=be492f240bd37f9c8c1bb6a2c8a01c0b")
@@ -25,12 +29,12 @@ print(weather_forecast[0]['dt_txt'])
 rain_forecast = ["Bring an umbrella" for index, i in enumerate(weather_forecast[:9]) for n in i["weather"] if n['id'] < 799]
 
 if "Bring an umbrella" in rain_forecast:
-    client = Client(api_key, auth_token)
+    client = Client(TWL_ID, TWL_AUTH_TOKEN)
     message = client.messages \
         .create(
         body="Bring an umbrella",
-        from_="+19788506384",
-        to="+353833126285"
+        from_=TWL_VIRTUAL_NUM,
+        to=TWL_VERIFIED_NUM
     )
 
 print(message.status)
