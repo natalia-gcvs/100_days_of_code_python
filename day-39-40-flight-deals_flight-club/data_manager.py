@@ -1,6 +1,7 @@
 import requests
 
 SHEET_FLIGHTS_ENDPOINT = "https://api.sheety.co/51eddc44d3522a8f8a1374eff8a4702d/flightDeals/prices"
+SHEET_USERS_ENDPOINT = "https://api.sheety.co/51eddc44d3522a8f8a1374eff8a4702d/flightDeals/users"
 
 
 class DataManager:
@@ -22,6 +23,13 @@ class DataManager:
             }
             response = requests.put(url=f'{SHEET_FLIGHTS_ENDPOINT}/{city["id"]}', json=code)
         print(response.text)
+
+    def get_users_data(self):
+        response = requests.get(url=SHEET_USERS_ENDPOINT)
+        data = response.json()["users"]
+        return data
+
+
 
 
 
