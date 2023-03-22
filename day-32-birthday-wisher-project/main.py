@@ -1,9 +1,10 @@
 ##################### Extra Hard Starting Project ######################
 import random
-
 import pandas as pd
 import datetime as dt
 import smtplib
+import time
+
 
 # 1. Update the birthdays.csv
 now = dt.datetime.now()
