@@ -11,8 +11,8 @@ now = dt.datetime.now()
 day = now.day
 month = now.month
 
-my_email = "natalia.gcvs@gmail.com"
-password = 'ivykmwyixvrlkfum'
+my_email = "email@gmail.com"
+password = 'youpassword'
 
 birthdays = pd.read_csv("birthdays.csv")
 PLACEHOLDER = "[NAME]"
@@ -29,7 +29,7 @@ for index, row in birthdays.iterrows():
         random_letter = random.randint(1, 3)
         # 3. If step 2 is true, pick a random letter from letter templates and replace
         # the [NAME] with the person's actual name from birthdays.csv
-        with open(f"letter_templates/letter_{random_letter}.txt", 'r') as letter:
+        with open(f"letter_templates/letter_{random_letter}.txt", port=587) as letter:
             content = letter.read()
             new_content = content.replace(PLACEHOLDER, name)
         # 4. Send the letter generated in step 3 to that person's email address.

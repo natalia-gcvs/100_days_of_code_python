@@ -23,9 +23,6 @@ def back_to_center():
     turtle.mode('standard')
 
 
-
-
-
 screen.listen()
 
 

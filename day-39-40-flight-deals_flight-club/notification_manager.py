@@ -7,7 +7,7 @@ TWILIO_AUTH_TOKEN = os.environ.get("SMS_AUTH_TOKEN")
 TWILIO_VIRTUAL_NUMBER = os.environ.get("TWL_VIRTUAL_NUM")
 TWILIO_VERIFIED_NUMBER = os.environ.get("TWL_VERIFIED_NUM")
 
-my_email = "natalia.gcvs@gmail.com"
+my_email = os.environ["smtp_email"]
 password = 'ivykmwyixvrlkfum'
 
 

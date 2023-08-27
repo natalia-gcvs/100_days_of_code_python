@@ -6,7 +6,7 @@ params = {"lat": -25.48,
           "long": -49.30,
           "appid": os.environ.get("OWM_KEY_API")
           }
-
+APPID = os.environ.get("OWM_KEY_API")
 TWL_ID = os.environ.get("TWL_ID")
 TWL_AUTH_TOKEN = os.environ.get("SMS_AUTH_TOKEN")
 TWL_VIRTUAL_NUM = os.environ.get("TWL_VIRTUAL_NUM")
@@ -15,7 +15,7 @@ TWL_VERIFIED_NUM = os.environ.get("TWL_VERIFIED_NUM")
 print(os.environ.get("OWM_KEY_API"))
 
 response = requests.get("http://api.openweathermap.org/data/2.5/forecast?"
-                        "lat=-25.48&lon=-49.30&appid=be492f240bd37f9c8c1bb6a2c8a01c0b")
+                        "lat=-25.48&lon=-49.30&appid=APPID")
 
 print(response.status_code)
 print(response)

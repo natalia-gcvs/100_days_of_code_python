@@ -6,8 +6,8 @@ import smtplib
 MY_LAT = -25.480877 # Your latitude
 MY_LONG = -49.304424 # Your longitude
 
-USER = "natalia.gcvs@gmail.com"
-PASSWORD = 'ivykmwyixvrlkfum'
+USER = "email@gmail.com"
+PASSWORD = 'yourpassowrd'
 
 #Your position is within +5 or -5 degrees of the ISS position.
 def positions_proximity():
@@ -45,7 +45,7 @@ while True:
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
             connection.login(user=USER, password=PASSWORD)
-            connection.sendmail(from_addr=USER, to_addrs='natalia.gcvs@gmail.com', msg=f"Subject: ISS Current Position \n\n\nLook up!")
+            connection.sendmail(from_addr=USER, to_addrs='recipient@gmail.com', msg=f"Subject: ISS Current Position \n\n\nLook up!")
 
 
 

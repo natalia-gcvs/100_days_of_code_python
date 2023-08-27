@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="900c9d82-5dd0-431e-b552-24535f8fb33d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../day-15-coffee-machine/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-turtle-race/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-19-turtle-race/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-turtle-race/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-20-21-snake-game/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-32-birthday-wisher-project/birthdays.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../day-32-birthday-wisher-project/birthdays.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-32-birthday-wisher-project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-32-birthday-wisher-project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-33-iss-overhead-notifier-project/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-33-iss-overhead-notifier-project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-33-iss-overhead-notifier-project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-35_send_sms_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-35_send_sms_project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-36-stock-news-project" beforeDir="false" afterPath="$PROJECT_DIR$/../day-36-stock-news-project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-37-habit_tracking_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-37-habit_tracking_project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-39-40-flight-deals_flight-club/data_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-39-40-flight-deals_flight-club/data_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-39-40-flight-deals_flight-club/flight_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-39-40-flight-deals_flight-club/flight_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-39-40-flight-deals_flight-club/notification_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-39-40-flight-deals_flight-club/notification_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-41-42-introduction-to-HTML/HTML - Personal Site/contact_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day-41-42-introduction-to-HTML/HTML - Personal Site/contact_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-41-42-introduction-to-HTML/HTML - Personal Site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day-41-42-introduction-to-HTML/HTML - Personal Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-43-introduction-to-CSS/HTML - Personal Site/contact_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day-43-introduction-to-CSS/HTML - Personal Site/contact_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-43-introduction-to-CSS/HTML - Personal Site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day-43-introduction-to-CSS/HTML - Personal Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-44-CSS-My Site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day-44-CSS-My Site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-47-amazon-price-tracker/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day-47-amazon-price-tracker/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-48-selenium-webdriver-and-game-playing-bot/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-48-selenium-webdriver-and-game-playing-bot/teste.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2ScKbs388WCnNyCnVoEz5yv3Lmy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/natal/Documents/PycharmProjects/day-59-upgraded-blog"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="900c9d82-5dd0-431e-b552-24535f8fb33d" name="Changes" comment="" />
+      <created>1689440503405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689440503405</updated>
+    </task>
+    <servers />
+  </component>
+</project>
